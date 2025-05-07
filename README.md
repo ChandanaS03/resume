@@ -1,4 +1,5 @@
 # resume
 
 
-<img width="1265" alt="image" src="https://github.com/user-attachments/assets/765b44b7-47ac-4034-87ff-7af35348574b" />
+<img width="570" alt="image" src="https://github.com/user-attachments/assets/74f6fe9b-c947-4a83-b4b4-05ae83251367" />
+
