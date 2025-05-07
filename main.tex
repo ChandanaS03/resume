@@ -1,0 +1,218 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[3]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{\href{#3}{#1}} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Chandana Shastri} \\ \vspace{1pt}
+    \href{mailto:chandanasthastri12@gmail.com}{\underline{chandanasthastri12@gmail.com}} $|$ 
+    \href{https://chandana.social}{\underline{chandana.social}} $|$ 
+    \href{https://www.linkedin.com/in/chandana-shastri/}{\underline{linkedin/chandanashastri}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Of Mumbai}{Navi Mumbai, Maharashtra}
+      {B.E. in AI \& ML, Honours in Data Science}{Aug. 2021 -- June 2025}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE & INTERNSHIPS-----------
+\section{Experience \& Internships}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {PODS Technology Solutions}{Navi Mumbai, MH}
+      {Machine Learning Intern}{Jan. 2025 -- Feb. 2025}
+      \resumeItemListStart
+        \resumeItem{Fine-tuned a Stable Diffusion text-to-image model and seamlessly integrated it into the ML pipeline, enhancing image quality and enabling scalable deployment.
+.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {IEEE Bombay Section}{Mumbai, MH [remote]}
+      {Jr. Full Stack Developer}{Sep. 2023 -- Nov. 2023}
+      \resumeItemListStart
+        \resumeItem{Collaborated on a SvelteKit web app, leveraging developer tools and modern stack features to boost user engagement.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Cyberi Pvt. Ltd.}{Mumbai, MH}
+      {Machine Learning Intern}{Jun. 2023 -- Aug. 2023}
+      \resumeItemListStart
+        \resumeItem{Developed and deployed a web app for efficient search across large cybersecurity databases, reducing search latency.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {PHN Technology Pvt. Ltd.}{Pune, MH [remote]}
+      {ML \& Data Science Intern}{Apr. 2023 -- Jun. 2023}
+      \resumeItemListStart
+        \resumeItem{Assisted in building predictive models and conducted exploratory data analysis for client projects.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {LeadGenius}{Berkeley, CA [remote]}
+      {Data Researcher}{Sep. 2021 -- Dec. 2021}
+      \resumeItemListStart
+        \resumeItem{Conducted data research for marketing and lead management, contributing to a 10\% increase in lead conversion.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {Auto Vision: AI-Powered Vehicle Damage Assessment $|$ \emph{Python, ML, DL}}
+    {Jan. 2024 -- May 2024}
+    {https://www.linkedin.com/posts/chandanashastri_autovision-ai-machinelearning-activity-7190037479909969921-WMZe?utm_source=share\&utm_medium=member_desktop\&rcm=ACoAADK9cGQBBQ2ytaQ6riFqnJbrcOA1OnfGoc0}
+  \resumeItemListStart
+    \resumeItem{Built a system that can accurately classify various types of car damage with 90\% accuracy. Incorporated OCR capabilities for license plate verification using the easyocr and cv2 libraries. Fine-tuned the model to enhance its accuracy. Hosted the project on Hugging Face Spaces for easy access and used Gradio for the interface.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Scale Image $|$ \emph{SRGAN, Hugging Face, Gradio, PyTorch}}
+    {Dec. 2024 -- Feb. 2025}
+    {https://huggingface.co/spaces/ChandanaShastri/SRGAN_for_Image_Upscaling}
+  \resumeItemListStart
+    \resumeItem{Fine-tuned a Super-Resolution GAN (SRGAN) model for image upsampling and upscaling, enabling high-quality 4x resolution enhancement from low-resolution inputs.}
+  \resumeItemListEnd
+
+  \resumeProjectHeading
+    {Cloud Computing $|$ \emph{S3, IAM, EC2, RDS, AWS}}
+    {Mar. 2024 -- May 2024}
+    {https://www.linkedin.com/posts/chandanashastri_miniabrproject-s3-iam-activity-7192055727035748352-mi7b?utm_source=share\&utm_medium=member_desktop\&rcm=ACoAADK9cGQBBQ2ytaQ6riFqnJbrcOA1OnfGoc0}
+  \resumeItemListStart
+    \resumeItem{Utilized Amazon S3 for storing website code, ensuring seamless access and scalability. Implemented a secure login/signup page using AWS IAM, reducing unauthorized access by 90\%. Integrated a chatbot feature, increasing user interaction. Leveraged DBaaS for newsletter signup, streamlining user data management.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+   
+
+%-----------POSITIONS OF RESPONSIBILITY-----------
+\section{Positions of Responsibility}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Technical Head}{SIES GST}
+      {IEEE SIES GST Team}{2023 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Developed projects for STEM workshops, Techopedia, impacting over 100 students.}
+        \resumeItem{Guided 15 volunteers, organized 5 events.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Placement Coordinator}{SIES GST}
+      {Training and Placement Cell}{2023 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Coordinated placement drives for 50+ students, hosted 3 events.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Volunteer}{SIES GST}
+      {Media Team}{2022 -- 2023}
+      \resumeItemListStart
+        \resumeItem{Handled photography, cinematography, and editing for 10+ events.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \item \textbf{Stack:} Python, R, HTML5, CSS3, JavaScript (ES6+),SQL, Postman, Flask, NumPy, Pandas, Matplotlib, PyTorch, TensorFlow, scikit-learn, OpenCV, AWS, Firebase, GCP 
+    \textbf{Tools:} Git, Docker, Jupyter, Figma, Hugging Face }
+ \end{itemize}
+
+
+%-----------CERTIFICATIONS-----------
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeItem{\href{https://badgr.com/public/assertions/Zsq7Qn5qQAqcne9U66RAkw}{Postman API Fundamentals - Postman}}
+  \resumeItem{\href{https://www.coursera.org/account/accomplishments/verify/RMEILHSVCJ3C}{Supervised ML - Coursera}}
+  \resumeItem{AI Foundation - Infosys}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
+
+
+
